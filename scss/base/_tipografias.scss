@@ -1,0 +1,26 @@
+/*font-family: 'Alkalami', serif;
+font-family: 'Poppins', sans-serif;*/
+h1,h2,h3,h4,h5{
+    font-family: 'Alkalami', serif;
+}
+p{
+    font-family: 'Alkalami', serif;
+}
+
+.my-h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.h5{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 576px){
+    p{
+        font-size: 14px;
+    }
+    h1,h2,h3,h4,h5{
+        font-size: 95%;
+    }
+}
